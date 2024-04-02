@@ -1,11 +1,11 @@
 import Reacte,{useState} from "react"
 import Styled from "styled-components"
 
-function Projetos(){
+function Sobre(){
     return(
-        <>
-           
-        </>
+        <main>
+            
+        </main>
     )
 }
-export default Projetos
+export default Sobre

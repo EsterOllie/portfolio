@@ -1,5 +1,5 @@
 import React,{ useState} from 'react'
-import Navegacao from "./components/Navegacao.jsx"
+import Navegacao from "./components/navegacao/Navegacao.jsx"
 
 import {createGlobalStyle} from "styled-components"
 const GlobalStyle = createGlobalStyle`
