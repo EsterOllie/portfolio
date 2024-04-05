@@ -21,6 +21,7 @@ function Navegacao(){
     return(
         <BrowserRouter>
             <S.styledNav>
+                <button><img src="" alt="" /></button>
                 <S.styleUl>
                     <li> <Link to="/">Inicio</Link></li>
                     <li><Link to="/Sobre"> Sobre</Link></li>

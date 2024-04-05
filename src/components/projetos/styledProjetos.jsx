@@ -3,6 +3,9 @@ import Styled from "styled-components"
 export const projetos = Styled.img`
     width : 17rem;
     height : 38rem;
+    @media(min-width: 320px) and (max-width: 768px){
+        width : 21rem;
+    }
     
 `
 export const styledDiv = Styled.div`
@@ -22,11 +25,23 @@ export const styledDiv = Styled.div`
     h2{
         padding-top : 1rem;
     }
+    @media(min-width: 320px) and (max-width: 768px){
+        width : 22rem;
+        button{
+            width : 21rem;
+        }
+    }
 
 `
 export const styledSec = Styled.section`
     display : flex;
     justify-content :space-evenly;
     color : #F4A460;
+    @media(min-width: 320px) and (max-width: 768px){
+        flex-direction : column;
+        justify-content : space-evenly;
+        align-items : center;
+        font-size : 1.2rem;
+    }
     
 `
